@@ -3,7 +3,8 @@ load("coreclr")
 import clr
 
 # Load the main DLL
-dll_path = r"\python_Demo_proj\dlls\api.DapperService.dll"  # Replace with the path to your DLL
+#/var/jenkins_home/workspace/Demo_Dapper_proj/dlls
+dll_path = r"/var/jenkins_home/workspace/Demo_Dapper_proj/dlls/api.DapperService.dll"  # Replace with the path to your DLL
 clr.AddReference(dll_path)
 print("Main DLL loaded successfully.")
 
