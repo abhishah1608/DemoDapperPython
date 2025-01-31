@@ -1,5 +1,4 @@
 from pythonnet import load
-from app.Model.user import User
 load("coreclr")
 import clr
 
